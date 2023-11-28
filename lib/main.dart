@@ -28,6 +28,7 @@ class MyHomePage extends StatelessWidget {
               context: context,
               firstDate: DateTime(2023),
               lastDate: DateTime(2024),
+              initialDate: DateTime(2023),
             );
           },
           child: const Text("Show Date Picker"),
